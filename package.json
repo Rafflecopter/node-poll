@@ -1,5 +1,5 @@
 {
-  "name": "poll",
+  "name": "simple-polling",
   "repository": {
     "type": "git",
     "url": "git://github.com/Rafflecopter/node-poll.git"
