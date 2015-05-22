@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git://github.com/Rafflecopter/node-poll.git"
   },
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A simple polling abstraction for repeating an asynchronous action until a desired outcome is achieved.",
   "main": "poll.js",
   "scripts": {
