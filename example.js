@@ -4,5 +4,4 @@ poll(function (cb) { setTimeout(function () { console.log('polling...'); cb(Math
   .until(function (num) { return num > 0.9 })
   .every(1000)
   .timeout(15000)
-  .then(function (num) { console.log('Finished with: ' + num) })
-  .run()
+  .run(function (num) { console.log('Finished with: ' + num) })
