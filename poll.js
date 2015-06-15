@@ -14,12 +14,12 @@ module.exports = function (op) {
     return this
   }
 
-  face.timeout = function (time) {
+  face.timeout_at = function (time) {
     timeout_ms = time
     return this
   }
 
-  face.run = function run(cb) {
+  face.run = function (cb) {
     var started = Date.now()
 
     op(function decision() {
