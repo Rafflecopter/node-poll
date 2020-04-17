@@ -27,7 +27,9 @@ module.exports = function (op) {
 
   face.run = function (cb) {
     var started = Date.now()
-
+    if (is_break) {
+      return;
+    }
     op(function decision() {
       var elapsed = Date.now() - started
 
